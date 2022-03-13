@@ -6,7 +6,7 @@ export class DiskService {
   constructor(private powerService: PowerService) {}
 
   getData() {
-    console.log('Drawing 20 watts of power from Power service');
+    console.log('Drawing 60 watts of power from Power service');
     this.powerService.supplyPower(20);
     return 'data';
   }

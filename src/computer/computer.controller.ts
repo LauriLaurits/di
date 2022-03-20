@@ -11,6 +11,6 @@ export class ComputerController {
 
   @Get()
   run() {
-    return [this.cpuService.compute(20, 10), this.diskService.getData()];
+    return [this.cpuService.compute(140, 10), this.diskService.getData()];
   }
 }

@@ -2,7 +2,7 @@ import { Controller, Get, Logger } from '@nestjs/common';
 import { CpuService } from '../cpu/cpu.service';
 import { DiskService } from '../disk/disk.service';
 
-@Controller('controjggffdhjller')
+@Controller('controjr')
 export class ComputerController {
   private logger = new Logger('TasksController', { timestamp: true });
   constructor(

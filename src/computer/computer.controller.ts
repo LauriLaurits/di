@@ -1,9 +1,10 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Logger } from '@nestjs/common';
 import { CpuService } from '../cpu/cpu.service';
 import { DiskService } from '../disk/disk.service';
 
-@Controller('computer')
+@Controller('cogr')
 export class ComputerController {
+  private logger = new Logger('TasksController', { timestamp: true });
   constructor(
     private cpuService: CpuService,
     private diskService: DiskService,
@@ -11,6 +12,7 @@ export class ComputerController {
 
   @Get()
   run() {
-    return [this.cpuService.compute(140, 10), this.diskService.getData()];
+    this.logger.verbose(`Test Verbose message`);
+    return [this.cpuService.compute(10, 10), this.diskService.getData()];
   }
 }

@@ -3,5 +3,5 @@ module.exports = {
   projectName: 'webhooks-sample-prj-bitbucket',
   buildDirectory: 'build',
   npmBuildCommand: 'build',
-  branchesToFollow: ['master'],
+  //branchesToFollow: ['master'],
 };

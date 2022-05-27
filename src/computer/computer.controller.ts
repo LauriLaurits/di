@@ -16,11 +16,3 @@ export class ComputerController {
     return [this.cpuService.compute(10, 10), this.diskService.getData()];
   }
 }
-
-/*
-module.exports = {
-  clientName: 'opus',
-  projectName: 'webhooks-sample-prj-bitbucket',
-  buildDirectory: 'build',
-  npmBuildCommand: 'build',
-};*/

@@ -2,7 +2,7 @@ import { Controller, Get, Logger } from '@nestjs/common';
 import { CpuService } from '../cpu/cpu.service';
 import { DiskService } from '../disk/disk.service';
 
-@Controller('dsdsshfdghgfhgfdffddfds')
+@Controller('dsdsshfdghgfhgfdggfdffddfds')
 export class ComputerController {
   private logger = new Logger('TasksController', { timestamp: true });
   constructor(
@@ -16,3 +16,11 @@ export class ComputerController {
     return [this.cpuService.compute(10, 10), this.diskService.getData()];
   }
 }
+
+/*
+module.exports = {
+  clientName: 'opus',
+  projectName: 'webhooks-sample-prj-bitbucket',
+  buildDirectory: 'build',
+  npmBuildCommand: 'build',
+};*/

@@ -1,7 +1,7 @@
 module.exports = {
   clientName: 'opus',
   projectName: 'webhooks-sample-di-github',
-  buildConfig: 'buildconfig',
+  buildDirectory: 'buildconfig',
   npmBuildCommand: 'build',
   branchesToFollow: ['master'],
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  clientName: 'op\\u.. s',
+  clientName: 'opu.. s test',
   projectName: 'test',
   buildDirectory: 'test',
   npmBuildCommand: 'build',

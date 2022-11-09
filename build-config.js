@@ -3,4 +3,5 @@ module.exports = {
   projectName: 'projectNameBC',
   buildDirectory: 'buildDirBC',
   npmBuildCommand: 'buildCommandBCC',
+
 };

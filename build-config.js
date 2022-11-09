@@ -1,7 +1,7 @@
 module.exports = {
   clientName: 'op\\u.. s',
-  projectName: 'op\\u.. s',
-  buildDirectory: 'op\\u.. s',
+  projectName: 'test',
+  buildDirectory: 'test',
   npmBuildCommand: 'build',
   branchesToFollow: ['master'],
 };

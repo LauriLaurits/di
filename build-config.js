@@ -3,5 +3,5 @@ module.exports = {
   projectName: 'projectNameBC',
   buildDirectory: 'buildDirBC',
   npmBuildCommand: 'buildCommandBC',
-  branchesToFollow: ['master','test_for_fourthcommit4'],
+  branchesToFollow: ['master', 'test_for_fourthcommit4'],
 };

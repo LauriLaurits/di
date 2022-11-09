@@ -1,6 +1,5 @@
 module.exports = {
-  //clientName: 'clientNameBC',
-
+  clientName: 'clientNameBC',
   projectName: 'projectNameBC',
   buildDirectory: 'buildDirBC',
   //npmBuildCommand: 'buildCommandBC',

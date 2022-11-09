@@ -1,7 +1,7 @@
 module.exports = {
-  clientName: 'opu..s.s ',
-  projectName: 'test-lauri-test',
-  buildDirectory: 'test',
-  npmBuildCommand: 'build',
+  clientName: 'clientNameBC',
+  projectName: 'projectNameBC',
+  buildDirectory: 'buildBirBC',
+  npmBuildCommand: 'buildCommandBC',
   branchesToFollow: ['master'],
 };

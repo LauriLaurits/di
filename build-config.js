@@ -1,8 +1,7 @@
 module.exports = {
   clientName: 'clientNameBC',
-  projectName: 'projectNameBC',
+  //projectName: 'projectNameBC',
   //buildDirectory: 'buildDirBC',
-
   npmBuildCommand: 'buildCommandBC',
   branchesToFollow: ['master'],
 };

@@ -3,6 +3,6 @@ module.exports = {
 
   projectName: 'projectNameBC',
   buildDirectory: 'buildDirBC',
-  npmBuildCommand: 'buildCommandBC',
+  //npmBuildCommand: 'buildCommandBC',
   branchesToFollow: ['master'],
 };

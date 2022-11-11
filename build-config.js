@@ -3,7 +3,7 @@ module.exports = {
   buildDirectory: 'web/www',
   npmBuildCommand: 'build:proto',
   branchesToFollow: [
-    'master3',
+    'master4',
     'release/v6.2212.1',
     'test_for_thirdcommit2',
     'test_for_fourthcommit4',

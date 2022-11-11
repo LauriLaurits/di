@@ -1,7 +1,6 @@
 module.exports = {
   clientName: 'clientNameTestTest',
   projectName: 'magnum-storefront-proto',
-  buildDirectory: 'web/www',
   npmBuildCommand: 'build:proto',
   branchesToFollow: [
     'masterghgfffdsfsdgdf9',

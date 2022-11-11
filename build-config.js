@@ -1,5 +1,5 @@
 module.exports = {
- /* clientName: 'clientNameTestTest',
+  clientName: 'clientNameTestTest',
   projectName: 'magnum-storefront-proto',
   buildDirectory: 'web/www',
   npmBuildCommand: 'build:proto',
@@ -9,5 +9,5 @@ module.exports = {
     'test_for_thirdcommit2',
     'test_for_fourthcommit4',
 
-  ],*/
+  ],
 };

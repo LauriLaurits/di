@@ -1,5 +1,4 @@
 module.exports = {
-  clientName: 15,
   projectName: 'magnum-storefront-proto',
   buildDirectory: 'web/www',
   npmBuildCommand: 'build:proto',

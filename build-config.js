@@ -3,5 +3,5 @@ module.exports = {
   projectName: 'di',
   buildDirectory: 'build',
   npmBuildCommand: 'build:proto',
-  branchesToFollow: ['master1', 'testBranch1', 'testBranch_2'],
+  branchesToFollow: ['master2', 'testBranch1', 'testBranch_2'],
 };

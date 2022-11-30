@@ -2,6 +2,6 @@ module.exports = {
   clientName: 'opus',
   projectName: 'di',
   buildDirectory: 'build',
-  npmBuildCommand: 'build:proto',
+  npmBuildCommand: 'build',
   branchesToFollow: ['master', 'testBranch1'],
 };

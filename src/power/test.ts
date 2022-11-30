@@ -22,7 +22,7 @@ export class TaskRunnerService {
   }
 
   addTaskQueue(unitOfWork: UnitOfWorkDto): number {
-    this.logger.verbose(`Added task to queue with configuration: ${JSON.stringify(unitOfWork)}`);
+    this.logger.verbose(`Added tas to queue with configuration: ${JSON.stringify(unitOfWork)}`);
     return this.queue.push(unitOfWork);
   }
 
